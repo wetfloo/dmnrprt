@@ -118,7 +118,7 @@
   natbib=true,
 ]{biblatex}
 
-\addbibresource{a.bib}
+\addbibresource{bibliography/a.bib}
 %Приведение списка литературы к требованим СФУ
 \renewcommand*{\mkgostheading}[1]{{#1}}
 \toggletrue{bbx:gostbibliography}%
@@ -169,7 +169,7 @@
   \begin{center}
     \begin{tabular}{l c m{0.01\textwidth} l}
       Преподаватель                                & \rule{3cm}{0.1pt} &  & Препод~Н.В. \\[5mm]
-      Студент FF20-66в, \textnumero\ з/к 123456789 & \rule{3cm}{0.1pt} &  & Пупкин~В.И.    \\
+      Студент FF20-66в, \textnumero\ з/к 123456789 & \rule{3cm}{0.1pt} &  & Пупкин~В.И. \\
     \end{tabular}
   \end{center}
 
@@ -212,9 +212,7 @@
   \label{fig:rsqrt}
 \end{figure}
 
-\section {Задание \textnumero 2}
-
-\lipsum[1-2]\ldots
+\include{components/comp1}
 
 \chapter{Заключение}
 
